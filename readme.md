@@ -15,3 +15,5 @@ Currently supported hardware configurations are:
 
 ### Control Board
 Arduino Nano or equivalent, wired as shown: 
+
+![LED_Controller](https://github.com/LoftedAero/GlowStick/assets/52842652/e6c668d0-4a07-4a6e-8877-0750d0272dc2)
