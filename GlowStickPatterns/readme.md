@@ -17,7 +17,7 @@ This program uses:
 The following elements of the code can be modified as needed:
 
 ### Pin Mapping
-```sh
+```arduino
 #define INPUT_PIN 2
 #define BRGHT_PIN 3
 #define LTAIL_PIN 4
@@ -28,7 +28,7 @@ The following elements of the code can be modified as needed:
 These definitions control the mapping of pins on the Arduino Nano to the various signals. The `INPUT_PIN` and `BRGHT_PIN` are the pins connected to R/C receiver channels to control the selected pattern and the overall brightness, respectively. The rest are the pins connected to the input of each LED array on the wings and tail surfaces. These correspond to the wiring diagram on the previous project page by default, but you can change them if you've wired your hardware differently. 
 
 ### Input Ranges
-```sh
+```arduino
 unsigned int PWM_MIN = 1000;
 unsigned int PWM_MAX = 2000;
 unsigned int BRIGHT_MIN = 0;
@@ -37,7 +37,7 @@ unsigned int BRIGHT_MAX = 255;
 These definitions control the minimum and maximum PWM input expected from your R/C receiver and the minimum and maximum brightness corresponding to that range. You can adjust either range as needed.
 
 ### Enables and Defaults
-```sh
+```arduino
 bool INPUT_ENABLE = 1;
 bool BRIGHT_ENABLE = 1;
 unsigned int pattern = 1;
