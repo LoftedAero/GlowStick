@@ -45,3 +45,7 @@ unsigned int brightness = 50;
  ```
 You can set `INPUT_ENABLE` or `BRIGHT_ENABLE` to 0 if you don't want to use R/C channels to control pattern or brightness. If you do so, the value of `pattern` controls the pattern that's displayed at a fixed value of `brightness`.
 
+## Video Tutorial
+
+[![Video Tutorial](https://i9.ytimg.com/vi/yK6Lo7ZanPA/mqdefault.jpg?v=6682389d&sqp=CLSJibQG&rs=AOn4CLBkqVBLoqrbleEGo5i64_KvNYz85A)](https://youtu.be/yK6Lo7ZanPA "Video Tutorial")
+
